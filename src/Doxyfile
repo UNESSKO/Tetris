@@ -1,0 +1,23 @@
+# Doxyfile for LaTeX output
+
+# Project settings
+PROJECT_NAME           = "C7_BrickGame_v1.0"
+PROJECT_NUMBER         = "1.0"
+OUTPUT_DIRECTORY       = doxygen_output
+
+# Generate LaTeX output
+GENERATE_LATEX         = YES
+LATEX_OUTPUT           = latex
+
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+EXTRACT_LOCAL_METHODS  = YES
+EXTRACT_ANON_NSPACES   = YES
+INPUT_ENCODING         = ISO-8859-1
+LATEX_CMD_NAME         = "pdflatex -interaction=batchmode"
+EXCLUDE_PATTERNS       = */tests/*
+
+# Additional settings for LaTeX output
